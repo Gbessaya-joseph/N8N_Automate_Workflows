@@ -1,5 +1,5 @@
 {
-  "active": false,
+  "active": true,
   "connections": {
     "When chat message received": {
       "main": [
@@ -59,6 +59,11 @@
             "index": 0
           }
         ]
+      ]
+    },
+    "OpenRouter Chat Model": {
+      "ai_languageModel": [
+        []
       ]
     }
   },
@@ -138,8 +143,8 @@
       "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
       "typeVersion": 1.2,
       "position": [
-        -992,
-        336
+        -976,
+        368
       ],
       "id": "93fdc1ff-4dee-4f7f-8b37-b8c041a22073",
       "name": "Model"
@@ -193,8 +198,8 @@
       "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
       "typeVersion": 1,
       "position": [
-        -528,
-        272
+        -544,
+        256
       ],
       "id": "22c7de07-2b07-42b7-8049-3a9f129fa43a",
       "name": "Google Gemini Chat Model",
@@ -202,6 +207,25 @@
         "googlePalmApi": {
           "id": "gfYMDwV73wLo1mMh",
           "name": "Google Gemini(PaLM) Api account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        -560,
+        368
+      ],
+      "id": "2c357a59-ab6c-4ed3-add1-07476d8e77f5",
+      "name": "OpenRouter Chat Model",
+      "credentials": {
+        "openRouterApi": {
+          "id": "sVvKOt492mx5LJ66",
+          "name": "OpenRouter account 2"
         }
       }
     }
@@ -221,7 +245,7 @@
   ],
   "staticData": null,
   "tags": [],
-  "triggerCount": 0,
-  "updatedAt": "2025-08-20T21:24:14.699Z",
-  "versionId": "8ddfd567-50d4-4833-b1aa-5e7fffb96b14"
+  "triggerCount": 1,
+  "updatedAt": "2025-09-18T19:00:08.887Z",
+  "versionId": "a58155d9-ea05-47e0-9569-245c2907aba0"
 }
