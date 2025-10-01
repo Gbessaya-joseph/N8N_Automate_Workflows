@@ -16,7 +16,7 @@
       "main": [
         [
           {
-            "node": "AI Agent1",
+            "node": "AI Agent",
             "type": "main",
             "index": 0
           }
@@ -69,13 +69,7 @@
     },
     "OpenRouter Chat Model": {
       "ai_languageModel": [
-        [
-          {
-            "node": "AI Agent1",
-            "type": "ai_languageModel",
-            "index": 0
-          }
-        ]
+        []
       ]
     }
   },
@@ -100,8 +94,8 @@
       "type": "n8n-nodes-base.scheduleTrigger",
       "typeVersion": 1.2,
       "position": [
-        40,
-        20
+        -16,
+        32
       ],
       "id": "4a300ef7-5384-48b8-82ff-a90a035ef2b9",
       "name": "Schedule Trigger",
@@ -117,8 +111,8 @@
       "type": "n8n-nodes-base.gmail",
       "typeVersion": 2.1,
       "position": [
-        260,
-        20
+        208,
+        32
       ],
       "id": "49012c4b-33de-4328-8991-8c97db9ffeff",
       "name": "Gmail1",
@@ -138,8 +132,8 @@
       "type": "@n8n/n8n-nodes-langchain.chatTrigger",
       "typeVersion": 1.1,
       "position": [
-        720,
-        620
+        -16,
+        360
       ],
       "id": "91ae8cad-35dd-4d70-8250-a49038dfc1d3",
       "name": "When chat message received",
@@ -154,8 +148,8 @@
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 1.9,
       "position": [
-        260,
-        240
+        208,
+        360
       ],
       "id": "a79eb6a2-8690-41ea-b9f9-b21aa4c43430",
       "name": "AI Agent"
@@ -168,8 +162,8 @@
       "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
       "typeVersion": 1,
       "position": [
-        300,
-        460
+        216,
+        584
       ],
       "id": "64f6e4f2-36cb-4630-b613-30ef7f6a9975",
       "name": "Google Gemini Chat Model",
@@ -187,8 +181,8 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        840,
-        240
+        560,
+        360
       ],
       "id": "c174dc55-58ba-40c7-a036-d01b39505f58",
       "name": "Code"
@@ -208,8 +202,8 @@
       "type": "n8n-nodes-base.googleCalendarTool",
       "typeVersion": 1.3,
       "position": [
-        560,
-        440
+        344,
+        584
       ],
       "id": "60b6e406-3281-4a5b-9c72-ea24dc41671d",
       "name": "Google Calendar",
@@ -230,8 +224,8 @@
       "type": "n8n-nodes-base.gmail",
       "typeVersion": 2.1,
       "position": [
-        1100,
-        240
+        784,
+        360
       ],
       "id": "28fd7c2a-8665-437a-b8dc-0489bb66963c",
       "name": "Gmail",
@@ -250,8 +244,8 @@
       "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
       "typeVersion": 1,
       "position": [
-        1100,
-        1020
+        -16,
+        688
       ],
       "id": "8eeb1544-c467-4d4b-9bd6-1296af96621b",
       "name": "OpenRouter Chat Model",
@@ -261,19 +255,6 @@
           "name": "OpenRouter account"
         }
       }
-    },
-    {
-      "parameters": {
-        "options": {}
-      },
-      "type": "@n8n/n8n-nodes-langchain.agent",
-      "typeVersion": 2,
-      "position": [
-        1080,
-        760
-      ],
-      "id": "b829f77b-a770-47f2-9e4e-246690b1c673",
-      "name": "AI Agent1"
     }
   ],
   "pinData": {},
@@ -292,6 +273,6 @@
   "staticData": null,
   "tags": [],
   "triggerCount": 0,
-  "updatedAt": "2025-06-20T12:08:41.606Z",
-  "versionId": "4f9e94c7-330b-4b72-b054-bcc70c03cdae"
+  "updatedAt": "2025-09-30T20:30:26.942Z",
+  "versionId": "a4fe132d-4978-4e26-86be-9cab5116f831"
 }
