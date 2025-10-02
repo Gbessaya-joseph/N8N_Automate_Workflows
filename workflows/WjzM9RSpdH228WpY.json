@@ -52,6 +52,11 @@
     },
     "Google Gemini Chat Model": {
       "ai_languageModel": [
+        []
+      ]
+    },
+    "OpenRouter Chat Model": {
+      "ai_languageModel": [
         [
           {
             "node": "Joke agent",
@@ -59,11 +64,6 @@
             "index": 0
           }
         ]
-      ]
-    },
-    "OpenRouter Chat Model": {
-      "ai_languageModel": [
-        []
       ]
     }
   },
@@ -198,8 +198,8 @@
       "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
       "typeVersion": 1,
       "position": [
-        -544,
-        256
+        -720,
+        368
       ],
       "id": "22c7de07-2b07-42b7-8049-3a9f129fa43a",
       "name": "Google Gemini Chat Model",
@@ -218,7 +218,7 @@
       "typeVersion": 1,
       "position": [
         -560,
-        368
+        272
       ],
       "id": "2c357a59-ab6c-4ed3-add1-07476d8e77f5",
       "name": "OpenRouter Chat Model",
@@ -246,6 +246,6 @@
   "staticData": null,
   "tags": [],
   "triggerCount": 1,
-  "updatedAt": "2025-09-18T19:00:08.887Z",
-  "versionId": "a58155d9-ea05-47e0-9569-245c2907aba0"
+  "updatedAt": "2025-09-30T16:59:33.622Z",
+  "versionId": "19c97893-88bc-400a-b3fa-f93bab0090bb"
 }
