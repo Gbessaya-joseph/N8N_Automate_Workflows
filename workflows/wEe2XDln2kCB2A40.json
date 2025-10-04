@@ -3,7 +3,7 @@
   "connections": {},
   "createdAt": "2025-06-20T12:10:20.486Z",
   "id": "wEe2XDln2kCB2A40",
-  "isArchived": false,
+  "isArchived": true,
   "meta": null,
   "name": "test-openroute-for-readme",
   "nodes": [],
@@ -23,6 +23,6 @@
   "staticData": null,
   "tags": [],
   "triggerCount": 0,
-  "updatedAt": "2025-06-23T12:58:26.968Z",
-  "versionId": "30d22f21-95c3-41ba-b181-f9d222f47663"
+  "updatedAt": "2025-09-30T17:13:10.672Z",
+  "versionId": "72fd982c-7419-4a63-ab58-39bfa0c432d3"
 }
