@@ -1,5 +1,7 @@
 {
   "active": false,
+  "activeVersion": null,
+  "activeVersionId": null,
   "connections": {
     "HTTP_Request_Tool": {
       "ai_tool": [
@@ -209,8 +211,8 @@
   },
   "shared": [
     {
-      "createdAt": "2025-04-24T19:44:01.878Z",
       "updatedAt": "2025-04-24T19:44:01.878Z",
+      "createdAt": "2025-04-24T19:44:01.878Z",
       "role": "workflow:owner",
       "workflowId": "Cq26r0G0dIkMW6oU",
       "projectId": "gGkJ26SwMiOwivnN"
