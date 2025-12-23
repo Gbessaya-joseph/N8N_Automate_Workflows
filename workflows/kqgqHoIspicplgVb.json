@@ -1,5 +1,7 @@
 {
   "active": false,
+  "activeVersion": null,
+  "activeVersionId": null,
   "connections": {
     "Set data": {
       "main": [
@@ -811,8 +813,8 @@
   },
   "shared": [
     {
-      "createdAt": "2025-08-18T21:47:28.957Z",
       "updatedAt": "2025-08-18T21:47:28.957Z",
+      "createdAt": "2025-08-18T21:47:28.957Z",
       "role": "workflow:owner",
       "workflowId": "kqgqHoIspicplgVb",
       "projectId": "gGkJ26SwMiOwivnN"
