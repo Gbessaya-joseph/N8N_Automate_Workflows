@@ -1,5 +1,64 @@
 {
   "active": true,
+  "activeVersion": {
+    "updatedAt": "2025-12-18T14:42:24.408Z",
+    "createdAt": "2025-12-18T14:42:24.408Z",
+    "versionId": "7739ac80-7b51-4999-ada4-194eb1bca4e0",
+    "workflowId": "7QJt7QcEstufI6co",
+    "nodes": [
+      {
+        "parameters": {
+          "rule": {
+            "interval": [
+              {
+                "field": "minutes",
+                "minutesInterval": 1
+              }
+            ]
+          }
+        },
+        "type": "n8n-nodes-base.scheduleTrigger",
+        "typeVersion": 1.2,
+        "position": [
+          0,
+          0
+        ],
+        "id": "0b185f86-cc69-4e4c-b21c-39ce3bd17f37",
+        "name": "Schedule Trigger"
+      },
+      {
+        "parameters": {
+          "url": "https://n8n-render-lamachine-xlsi.onrender.com/healthz",
+          "options": {}
+        },
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          220,
+          0
+        ],
+        "id": "dccd081d-89ab-4ba8-93d1-4b8837fe1e5c",
+        "name": "HTTP Request"
+      }
+    ],
+    "connections": {
+      "Schedule Trigger": {
+        "main": [
+          [
+            {
+              "node": "HTTP Request",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      }
+    },
+    "authors": "system migration",
+    "name": null,
+    "description": null
+  },
+  "activeVersionId": "7739ac80-7b51-4999-ada4-194eb1bca4e0",
   "connections": {
     "Schedule Trigger": {
       "main": [
@@ -60,8 +119,8 @@
   },
   "shared": [
     {
-      "createdAt": "2025-04-24T19:44:05.352Z",
       "updatedAt": "2025-04-24T19:44:05.352Z",
+      "createdAt": "2025-04-24T19:44:05.352Z",
       "role": "workflow:owner",
       "workflowId": "7QJt7QcEstufI6co",
       "projectId": "gGkJ26SwMiOwivnN"
