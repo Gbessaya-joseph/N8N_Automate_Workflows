@@ -1,5 +1,7 @@
 {
   "active": false,
+  "activeVersion": null,
+  "activeVersionId": null,
   "connections": {
     "Set URL": {
       "main": [
@@ -361,8 +363,8 @@
   },
   "shared": [
     {
-      "createdAt": "2025-09-22T19:00:32.732Z",
       "updatedAt": "2025-09-22T19:00:32.732Z",
+      "createdAt": "2025-09-22T19:00:32.732Z",
       "role": "workflow:owner",
       "workflowId": "VO68SwnGJFcRJR31",
       "projectId": "gGkJ26SwMiOwivnN"
